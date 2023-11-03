@@ -9,6 +9,6 @@ app.use('/api/users', userRoutes);
 
 
 
-app.get('/', (req, res) => res.send('Server is Ready'));
+app.get('/', (req, res) => res.send('Server is modified'));
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
