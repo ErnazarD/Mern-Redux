@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npm test",
     "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "node backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,5 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
